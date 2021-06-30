@@ -3,6 +3,8 @@ import React from "react";
 const Choices = ({ handleChoice }) => {
   const handleClick = (name) => {
     handleChoice(name);
+
+    console.log("handleChoice dans le Choice.js = " + name);
   };
   return (
     <div className="space-y-3 space-x-3">
@@ -29,14 +31,6 @@ const Choices = ({ handleChoice }) => {
         }}
       >
         Authors
-      </button>
-      <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
-        onClick={() => {
-          handleClick("deploy");
-        }}
-      >
-        Deployement
       </button>
       <button
         className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
@@ -69,14 +63,6 @@ const Choices = ({ handleChoice }) => {
         }}
       >
         Environment Variables
-      </button>
-      <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
-        onClick={() => {
-          handleClick("section");
-        }}
-      >
-        Section
       </button>
       <button
         className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"

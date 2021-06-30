@@ -1,3 +1,17 @@
+# Création d'un template pour créer des README 
+
+A chaque fois que je dois faire un README, je dois tout reprendre depuis le début.
+
+C'est pourquoi j'ai créer cette application vite fait pour justement, m'éviter de faire ça à chaque fois.
+
+---
+
+# Authors
+
+- [anthony Gorski](https://twitter.com/Gorski_anthony)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

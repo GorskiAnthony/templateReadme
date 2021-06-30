@@ -1,32 +1,26 @@
 {
   "title": {
-    "text": "# Project \n\n little description"
+    "text": "# Project \n\nlittle description"
   },
   "api": {
-    "text": "# API \n\n ```http \n\n GET /api/items \n\n``` \n\n "
+    "text": "# API\n\n```http \n\nGET /api/items\n\n```\n\n"
   },
   "authors": {
-    "text": "# Project \n\n little description"
-  },
-  "deploy": {
-    "text": "# Project \n\n little description"
+    "text": "# Authors\n\n- [anthony Gorski](https://twitter.com/Gorski_anthony)"
   },
   "install": {
-    "text": "# Project \n\n little description"
+    "text": "```shell \n\n$ npm install \n\n$ npm start\n```"
   },
   "logo": {
-    "text": "# Project \n\n little description"
+    "text": "![example](https://via.placeholder.com/150)"
   },
   "example": {
-    "text": "# Project \n\n little description"
+    "text": "```language \n\n```"
   },
   "variable": {
-    "text": "# Project \n\n little description"
-  },
-  "section": {
-    "text": "# Project \n\n little description"
+    "text": "```js\n\nITEM=YOUR_ITEM\n```"
   },
   "divider": {
-    "text": "# Project \n\n little description"
+    "text": "---"
   }
 }
