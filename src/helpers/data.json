@@ -1,0 +1,32 @@
+{
+  "title": {
+    "text": "# Project \n\n little description"
+  },
+  "api": {
+    "text": "# API \n\n ```http \n\n GET /api/items \n\n``` \n\n "
+  },
+  "authors": {
+    "text": "# Project \n\n little description"
+  },
+  "deploy": {
+    "text": "# Project \n\n little description"
+  },
+  "install": {
+    "text": "# Project \n\n little description"
+  },
+  "logo": {
+    "text": "# Project \n\n little description"
+  },
+  "example": {
+    "text": "# Project \n\n little description"
+  },
+  "variable": {
+    "text": "# Project \n\n little description"
+  },
+  "section": {
+    "text": "# Project \n\n little description"
+  },
+  "divider": {
+    "text": "# Project \n\n little description"
+  }
+}
