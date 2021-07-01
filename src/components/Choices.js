@@ -3,13 +3,11 @@ import React from "react";
 const Choices = ({ handleChoice }) => {
   const handleClick = (name) => {
     handleChoice(name);
-
-    console.log("handleChoice dans le Choice.js = " + name);
   };
   return (
     <div className="space-y-3 space-x-3">
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
           handleClick("title");
         }}
@@ -17,23 +15,23 @@ const Choices = ({ handleChoice }) => {
         Title and description
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
-          handleClick("api");
+          handleClick("array");
         }}
       >
-        API reference
+        Array
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
-          handleClick("authors");
+          handleClick("author");
         }}
       >
-        Authors
+        Author
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
           handleClick("install");
         }}
@@ -41,36 +39,44 @@ const Choices = ({ handleChoice }) => {
         Installation
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
           handleClick("logo");
         }}
       >
-        Logo
+        Logo/Image
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
           handleClick("example");
         }}
       >
-        Usage/Examples
+        Code
       </button>
       <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
-        onClick={() => {
-          handleClick("variable");
-        }}
-      >
-        Environment Variables
-      </button>
-      <button
-        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-indigo-600 cursor-pointer"
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
           handleClick("divider");
         }}
       >
         Divider
+      </button>
+      <button
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
+        onClick={() => {
+          handleClick("link");
+        }}
+      >
+        Link
+      </button>
+      <button
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
+        onClick={() => {
+          handleClick("chapter");
+        }}
+      >
+        Chapter
       </button>
     </div>
   );

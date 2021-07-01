@@ -3,9 +3,11 @@ import Header from "../components/Header";
 import Readme from "../components/Readme";
 import data from "../helpers/data.json";
 import Footer from "../components/Footer";
+import Modal from "../components/Modal";
 
 const App = () => {
   const [state, setstate] = useState(data.title.text);
+  const [toggle, setToggle] = useState(false);
 
   const handleDownload = () => {
     const element = document.createElement("a");
@@ -25,7 +27,7 @@ const App = () => {
   };
 
   const changeState = (choice = "title") => {
-    const text = state + data[choice].text + "\n\n";
+    const text = state + "\n\n" + data[choice].text;
     setstate(text);
   };
 
@@ -39,9 +41,19 @@ const App = () => {
     changeState(name);
   };
 
+  const handleInfo = () => {
+    setToggle(!toggle);
+  };
+
   return (
-    <div className="mx-auto px-2 sm:px-6 lg:px-8">
-      <Header handleErase={handleErase} handleDownload={handleDownload} />
+    <div className="mx-auto px-2 sm:px-6 md:px-8">
+      {toggle ? <Modal handleInfo={handleInfo} /> : ""}
+
+      <Header
+        handleErase={handleErase}
+        handleDownload={handleDownload}
+        handleInfo={handleInfo}
+      />
       <Readme
         handleChange={handleChange}
         handleChoice={handleChoice}

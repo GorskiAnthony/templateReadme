@@ -20,6 +20,18 @@
   p {
     @apply py-3;
   }
+  a {
+    @apply text-indigo-500;
+  }
+  pre {
+    @apply bg-gray-100;
+    @apply p-2;
+    @apply rounded-sm;
+  }
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
 }
 @tailwind components;
 @tailwind utilities;

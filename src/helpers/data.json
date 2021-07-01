@@ -2,25 +2,28 @@
   "title": {
     "text": "# Project \n\nlittle description"
   },
-  "api": {
-    "text": "# API\n\n```http \n\nGET /api/items\n\n```\n\n"
+  "array": {
+    "text": "| Parameter | Type     | Description                |\n| :-------- | :------- | :------------------------- |\n| `your parameter` | `string` | **Required**. Your key |"
   },
-  "authors": {
-    "text": "# Authors\n\n- [anthony Gorski](https://twitter.com/Gorski_anthony)"
+  "author": {
+    "text": "# Author\n\n- [anthony Gorski](https://twitter.com/Gorski_anthony)"
   },
   "install": {
-    "text": "```shell \n\n$ npm install \n\n$ npm start\n```"
+    "text": "# Installation\n\nInstall my-project with npm\n\n```shell\n$ npm install\n$ npm start\n```"
   },
   "logo": {
     "text": "![example](https://via.placeholder.com/150)"
   },
   "example": {
-    "text": "```language \n\n```"
+    "text": "```language\n\n```"
   },
-  "variable": {
-    "text": "```js\n\nITEM=YOUR_ITEM\n```"
+  "link": {
+    "text": "[name link](https://www.perdu.com)"
   },
   "divider": {
     "text": "---"
+  },
+  "chapter": {
+    "text": "# Your chapter\n- one\n- two\n- three"
   }
 }
