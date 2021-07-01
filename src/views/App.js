@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Readme from "../components/Readme";
 import data from "../helpers/data.json";
+import { templateProjet, templateSummary } from "../helpers/helperTemplate";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 
@@ -41,6 +42,22 @@ const App = () => {
     changeState(name);
   };
 
+  const handleTemplate = (name) => {
+    handleErase();
+    switch (name) {
+      case "full_project":
+        setstate(templateProjet);
+        break;
+      case "full_summary":
+        setstate(templateSummary);
+        break;
+
+      default:
+        setstate("");
+        break;
+    }
+  };
+
   const handleInfo = () => {
     setToggle(!toggle);
   };
@@ -57,6 +74,7 @@ const App = () => {
       <Readme
         handleChange={handleChange}
         handleChoice={handleChoice}
+        handleTemplate={handleTemplate}
         state={state}
       />
       <Footer />

@@ -1,9 +1,10 @@
 import React from "react";
 import Choices from "./Choices";
 import marked from "marked";
+import Template from "./Template";
 import hljs from "highlight.js";
 
-const Readme = ({ handleChoice, handleChange, state }) => {
+const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
   marked.setOptions({
     highlight: function (code, lang) {
       const language = hljs.getLanguage(lang) ? lang : "plaintext";
@@ -18,6 +19,8 @@ const Readme = ({ handleChoice, handleChange, state }) => {
           <div className="flex-1">
             <p className="text-xl font-medium text-green-700 mb-2">Choices</p>
             <Choices handleChoice={handleChoice} />
+            <p className="text-xl font-medium text-green-700 mb-2">Templates</p>
+            <Template handleTemplate={handleTemplate} />
           </div>
         </div>
       </div>
