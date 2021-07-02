@@ -39,6 +39,29 @@ const Modal = ({ handleInfo }) => {
                   and it will be added after the last item.
                 </p>
               </div>
+              <div className="mt-2">
+                <p className="text-sm text-gray-500">
+                  The template buttons are used to generate a basic structure
+                  for a project for example.
+                </p>
+              </div>
+              <div className="mt-2">
+                <p className="text-sm text-gray-500">
+                  Badges allow you to have links on the version, the author, the
+                  last commit etc. Of course, it is necessary to modify the data
+                  of the links so that it corresponds to your request.
+                </p>
+              </div>
+              <div className="mt-2 bg-gray-100 rounded-sm">
+                <p className="text-sm text-gray-500">
+                  If you have any update ideas, feel free to leave an{" "}
+                  <a href="https://github.com/GorskiAnthony/templateReadme/issues">
+                    issue
+                  </a>{" "}
+                  on github or contact me on{" "}
+                  <a href="https://twitter.com/Gorski_anthony">twitter</a>.
+                </p>
+              </div>
             </div>
           </div>
           <div className="mt-5 sm:mt-6">

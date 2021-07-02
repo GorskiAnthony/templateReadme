@@ -9,7 +9,7 @@
     "text": "# Author\n\n👤 [anthony Gorski](https://twitter.com/Gorski_anthony)"
   },
   "badges": {
-    "text": "![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)\n[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](link_your_doc)\n[![Twitter: nickname](https://img.shields.io/twitter/follow/nickname.svg?style=social)](https://twitter.com/nickname)"
+    "text": "![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)\n[![Commit](https://img.shields.io/github/last-commit/GorskiAnthony/templateReadme)](https://github.com/GorskiAnthony/templateReadme)\n[![Licence](https://img.shields.io/github/license/GorskiAnthony/templateReadme)](https://img.shields.io/github/license/GorskiAnthony/templateReadme)\n[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](link_your_doc)\n[![Twitter: Gorski_Anthony](https://img.shields.io/twitter/follow/Gorski_Anthony.svg?style=social)](https://twitter.com/Gorski_anthony)\n[![Github](https://img.shields.io/github/followers/GorskiAnthony?style=social)](https://github.com/GorskiAnthony)"
   },
   "install": {
     "text": "# Installation\n\nInstall my-project with npm\n\n```shell\n$ npm install\n$ npm start\n```"

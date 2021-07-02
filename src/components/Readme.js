@@ -30,7 +30,7 @@ const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
           <div className="flex-1">
             <p className="text-xl font-medium text-gray-200 mb-2">Markdown</p>
             <textarea
-              className="w-full min-h-full bg-gray-900 text-white focus:outline-none"
+              className="w-full h-full bg-gray-900 text-white focus:outline-none"
               id="output"
               value={state}
               onChange={handleChange}

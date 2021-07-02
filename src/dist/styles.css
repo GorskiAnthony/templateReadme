@@ -595,6 +595,13 @@ ul {
   list-style-position: inside;
 }
 
+blockquote {
+  border-left-width: 8px;
+  --tw-border-opacity: 1;
+  border-color: rgba(37, 99, 235, var(--tw-border-opacity));
+  padding-left: 1rem;
+}
+
 .container {
   width: 100%;
 }

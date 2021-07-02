@@ -32,6 +32,9 @@
     @apply list-disc;
     @apply list-inside;
   }
+  blockquote {
+    @apply border-l-8 border-blue-600 pl-4;
+  }
 }
 @tailwind components;
 @tailwind utilities;

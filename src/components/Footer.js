@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
 
           <a
-            href="https://github.com/GorskiAnthony"
+            href="https://github.com/GorskiAnthony/templateReadme"
             className="text-gray-400 hover:text-gray-500"
           >
             <span className="sr-only">GitHub</span>
