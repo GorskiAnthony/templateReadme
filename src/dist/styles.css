@@ -579,6 +579,10 @@ blockquote {
   padding-left: 1rem;
 }
 
+.h-textarea {
+  height: 93%;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -675,10 +679,6 @@ blockquote {
 
 .h-12 {
   height: 3rem;
-}
-
-.h-full {
-  height: 100%;
 }
 
 .h-screen {

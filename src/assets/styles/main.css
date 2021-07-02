@@ -35,6 +35,9 @@
   blockquote {
     @apply border-l-8 border-blue-600 pl-4;
   }
+  .h-textarea {
+    height: 93%;
+  }
 }
 @tailwind components;
 @tailwind utilities;
