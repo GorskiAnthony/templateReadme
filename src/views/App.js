@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import Readme from "../components/Readme";
 import data from "../helpers/data.json";
-import { templateProjet, templateSummary } from "../helpers/helperTemplate";
+import {
+  templateProjet,
+  templateSummary,
+  templateTP,
+} from "../helpers/helperTemplate";
 import Footer from "../components/Footer";
 import Modal from "../components/Modal";
 
@@ -50,6 +54,9 @@ const App = () => {
         break;
       case "full_summary":
         setstate(templateSummary);
+        break;
+      case "full_tp":
+        setstate(templateTP);
         break;
 
       default:

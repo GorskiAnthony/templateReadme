@@ -64,3 +64,39 @@ export const templateSummary = `# {Title of project}
     -   three
 
 `;
+
+export const templateTP = `# Exercice
+
+## But de l'exercice 🎯
+
+description
+
+## Étape 1️⃣
+
+description
+
+## Étape 2️⃣
+
+description
+
+## Étape 3️⃣
+
+description
+
+## Étape 4️⃣
+
+description
+
+## Étape 5️⃣
+
+description
+
+## Étape 6️⃣
+
+description
+
+---
+
+## Bonus 🚀
+
+`;

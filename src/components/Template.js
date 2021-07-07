@@ -22,6 +22,14 @@ const Template = ({ handleTemplate }) => {
       >
         Full summary
       </button>
+      <button
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
+        onClick={() => {
+          handleClick("full_tp");
+        }}
+      >
+        Full TP
+      </button>
     </div>
   );
 };
