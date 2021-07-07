@@ -16,7 +16,7 @@ const App = () => {
 
   const handleDownload = () => {
     const element = document.createElement("a");
-    const file = new Blob([document.querySelector("#output").value], {
+    const file = new Blob([state], {
       type: "text/plain;charset=utf-8",
     });
     element.href = URL.createObjectURL(file);
