@@ -3,12 +3,12 @@ import Choices from "./Choices";
 import marked from "marked";
 import Template from "./Template";
 import hljs from "highlight.js";
+import Editor from "react-simple-code-editor";
 
 const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
   marked.setOptions({
-    highlight: function (code, lang) {
-      const language = hljs.getLanguage(lang) ? lang : "plaintext";
-      return hljs.highlight(code, { language }).value;
+    highlight: function (code) {
+      return hljs.highlight(code, { language: "md" }).value;
     },
   });
 
@@ -25,16 +25,25 @@ const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
         </div>
       </div>
 
-      <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
+      <div className="flex flex-col rounded-lg shadow-lg overflow-y-auto">
         <div className="flex-1 bg-gray-900 p-6 flex flex-col justify-between">
           <div className="flex-1">
             <p className="text-xl font-medium text-gray-200 mb-2">Markdown</p>
-            <textarea
-              className="w-full h-textarea bg-gray-900 text-white focus:outline-none"
-              id="output"
+            <Editor
               value={state}
-              onChange={handleChange}
-            ></textarea>
+              onValueChange={handleChange}
+              highlight={(code) => {
+                return hljs.highlight(code, { language: "md" }).value;
+              }}
+              id="output"
+              padding={10}
+              style={{
+                fontFamily: '"Fira code", "Fira Mono", monospace',
+                fontSize: "1.1em",
+                color: "#FAFAFA",
+                overflow: "scroll",
+              }}
+            />
           </div>
         </div>
       </div>

@@ -38,6 +38,9 @@
   .h-textarea {
     height: 93%;
   }
+  hr {
+    @apply my-3;
+  }
 }
 @tailwind components;
 @tailwind utilities;

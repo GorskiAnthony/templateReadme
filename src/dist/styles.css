@@ -606,6 +606,11 @@ blockquote {
   height: 93%;
 }
 
+hr {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .container {
   width: 100%;
 }

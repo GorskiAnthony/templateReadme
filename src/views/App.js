@@ -37,12 +37,11 @@ const App = () => {
   };
 
   const handleChange = (event) => {
-    const text = event.target.value;
+    const text = event;
     setstate(text);
   };
 
   const handleChoice = (name) => {
-    console.log("handleChoice dans le Readme.js = " + name);
     changeState(name);
   };
 

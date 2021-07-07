@@ -1,6 +1,6 @@
 # Write your README
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000)
 [![Commit](https://img.shields.io/github/last-commit/GorskiAnthony/templateReadme)](https://github.com/GorskiAnthony/templateReadme)
 [![Twitter: Gorski_Anthony](https://img.shields.io/twitter/follow/Gorski_Anthony.svg?style=social)](https://twitter.com/Gorski_anthony)
 [![Github](https://img.shields.io/github/followers/GorskiAnthony?style=social)](https://github.com/GorskiAnthony)
