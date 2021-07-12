@@ -26,6 +26,9 @@
   "divider": {
     "text": "---"
   },
+  "footer": {
+    "text": "--- \n\n🏠 [Main Menu](README.md)\n\n 👤 [Anthony Gorski](https://twitter.com/Gorski_anthony)"
+  },
   "chapter": {
     "text": "# Your chapter\n- one\n- two\n- three"
   }

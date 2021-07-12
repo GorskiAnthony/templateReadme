@@ -41,7 +41,6 @@ const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
                 fontFamily: '"Fira code", "Fira Mono", monospace',
                 fontSize: "1.1em",
                 color: "#FAFAFA",
-                overflow: "scroll",
               }}
             />
           </div>
@@ -49,7 +48,7 @@ const Readme = ({ handleChoice, handleChange, state, handleTemplate }) => {
       </div>
 
       <div className="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        <div className="flex-1 bg-white p-6 flex flex-col justify-between overflow-scroll">
+        <div className="flex-1 bg-white p-6 flex flex-col justify-between overflow-y-auto">
           <p className="text-xl font-medium text-green-700 mb-2">Output</p>
 
           <div

@@ -81,6 +81,14 @@ const Choices = ({ handleChoice }) => {
       <button
         className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
         onClick={() => {
+          handleClick("footer");
+        }}
+      >
+        Footer
+      </button>
+      <button
+        className="bg-white shadow overflow-hidden rounded-md px-6 py-4 hover:text-white hover:bg-green-600 cursor-pointer"
+        onClick={() => {
           handleClick("chapter");
         }}
       >

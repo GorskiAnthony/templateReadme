@@ -60,11 +60,15 @@ export const templateSummary = `# {Title of project}
 -   two
 -   three
 
----
+--- 
+
+🏠 [Main Menu](README.md)
 
 # Author
 
 👤 [Anthony Gorski](https://twitter.com/Gorski_anthony)
+
+
 
 `;
 
@@ -97,6 +101,8 @@ Description de l'étape n°4
 Si vous avez des idées et des implémentation supplémentaire, n'hésitez pas à vous amuser... C'est comme ça qu'on apprend ! ❤️
 
 ---
+
+🏠 [Main Menu](README.md)
 
 # Author
 
